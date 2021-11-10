@@ -20,7 +20,7 @@ bluemsx"
 IFS=$'\n'
 
 # Setup build dirs
-rootdir='/buildout/'
+rootdir=$(pwd)'/buildout/'
 mkdir -p ${rootdir}{data,js/vendor,retrotmp,emulatorjstmp}
 
 ## Grab frontend blobs
@@ -57,4 +57,8 @@ mv \
   ${rootdir}/emulatorjstmp/frontend/js/vendor/jquery.hotkeys.js \
   ${rootdir}/emulatorjstmp/frontend/js/vendor/jquery.min.js \
   ${rootdir}/js/vendor/
-rm -Rf ${rootdir}/emulatorjstmp/ 
+rm -Rf ${rootdir}/emulatorjstmp/
+# Make tarball for release
+cd ${rootdir}
+tar -czf libretrojs.tar.gz *
+mv libretrojs.tar.gz ../
