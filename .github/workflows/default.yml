@@ -38,6 +38,7 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
         file: libretrojs.tar.gz
+        asset_name: libretrojs.tar.gz
         overwrite: true
         prerelease: false
         release_name: ${{ env.GITHUB_TAG }}
