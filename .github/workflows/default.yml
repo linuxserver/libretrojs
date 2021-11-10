@@ -4,11 +4,13 @@ on: [workflow_dispatch]
 jobs:
   build-latest:
     name: Build Latest
-    runs-on: alpine-latest
+    runs-on: ubuntu-latest
+    container:
+      image: alpine:latest
     steps:
     - name: Setup Build env
       run: |
-        apk add p7zip zip
+        apk add p7zip zip bash
         export GITHUB_TAG=$(curl -sX GET "https://api.github.com/repos/linuxserver/emulatorjs/releases/latest" | awk '/tag_name/{print $4;exit}' FS='[""]')
         echo "GITHUB_TAG=$GITHUB_TAG" >> $GITHUB_ENV
 
