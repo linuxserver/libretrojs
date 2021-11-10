@@ -8,6 +8,10 @@ jobs:
     container:
       image: alpine:latest
     steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: master
+
     - name: Setup Build env
       run: |
         apk add p7zip zip bash
