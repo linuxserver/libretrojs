@@ -15,8 +15,7 @@ jobs:
     - name: Setup Build env
       run: |
         apk add p7zip zip bash
-        export GITHUB_TAG=$(curl -sX GET "https://api.github.com/repos/linuxserver/emulatorjs/releases/latest" | awk '/tag_name/{print $4;exit}' FS='[""]')
-        echo "GITHUB_TAG=$GITHUB_TAG" >> $GITHUB_ENV
+        echo ::set-env name=GITHUB_TAG::$(curl -sX GET "https://api.github.com/repos/linuxserver/emulatorjs/releases/latest" | awk '/tag_name/{print $4;exit}' FS='[""]')
 
     - name: Build release
       env:
