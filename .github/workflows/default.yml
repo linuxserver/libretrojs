@@ -1,0 +1,39 @@
+name: libretrojs
+
+jobs:
+  build-latest:
+    name: Build Latest
+    runs-on: alpine-latest
+    steps:
+    - name: Setup Build env
+      run: |
+        apk add p7zip zip
+        export GITHUB_TAG=$(curl -sX GET "https://api.github.com/repos/linuxserver/emulatorjs/releases/latest" | awk '/tag_name/{print $4;exit}' FS='[""]')
+        echo "GITHUB_TAG=$GITHUB_TAG" >> $GITHUB_ENV
+
+    - name: Build release
+      env:
+        GITHUB_TAG: ${{ env.GITHUB_TAG }}
+      run: |
+        ./make_release.sh
+
+    - name: Create Release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ env.GITHUB_TAG }}
+        release_name: ${{ env.GITHUB_TAG }}
+        draft: false
+        prerelease: false
+
+    - name: Upload Assets
+      uses: svenstaro/upload-release-action@v2
+      with:
+        file: /buildout/*
+        file_glob: true
+        overwrite: true
+        prerelease: false
+        release_name: ${{ env.GITHUB_TAG }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        tag: ${{ env.GITHUB_TAG }}
