@@ -28,6 +28,7 @@ Simply extract the release into the root of your webserver and try this test pag
 * mame2003_plus- [https://github.com/libretro/mame2003-plus-libretro](https://github.com/libretro/mame2003-plus-libretro)
 * mednafen_ngp- [https://github.com/libretro/beetle-ngp-libretro](https://github.com/libretro/beetle-ngp-libretro)
 * mednafen_pce_fast- [https://github.com/libretro/beetle-pce-fast-libretro](https://github.com/libretro/beetle-pce-fast-libretro)
+* mednafen_psx- [https://github.com/libretro/beetle-psx-libretro](https://github.com/libretro/beetle-psx-libretro)
 * mednafen_vb- [https://github.com/libretro/beetle-vb-libretro](https://github.com/libretro/beetle-vb-libretro)
 * mednafen_wswan- [https://github.com/libretro/beetle-wswan-libretro](https://github.com/libretro/beetle-wswan-libretro)
 * o2em- [https://github.com/libretro/libretro-o2em](https://github.com/libretro/libretro-o2em)
