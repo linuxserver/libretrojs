@@ -33,6 +33,7 @@ Simply extract the release into the root of your webserver and try this test pag
 * mednafen_psx- [https://github.com/libretro/beetle-psx-libretro](https://github.com/libretro/beetle-psx-libretro)
 * mednafen_vb- [https://github.com/libretro/beetle-vb-libretro](https://github.com/libretro/beetle-vb-libretro)
 * mednafen_wswan- [https://github.com/libretro/beetle-wswan-libretro](https://github.com/libretro/beetle-wswan-libretro)
+* melonds- [https://github.com/libretro/melonDS](https://github.com/libretro/melonDS)
 * o2em- [https://github.com/libretro/libretro-o2em](https://github.com/libretro/libretro-o2em)
 * prboom- [https://github.com/libretro/libretro-prboom](https://github.com/libretro/libretro-prboom)
 * prosystem- [https://github.com/libretro/prosystem-libretro](https://github.com/libretro/prosystem-libretro)
