@@ -43,6 +43,7 @@ Simply extract the release into the root of your webserver and try this test pag
 * vba_next- [https://github.com/libretro/vba-next](https://github.com/libretro/vba-next)
 * vecx- [https://github.com/libretro/libretro-vecx](https://github.com/libretro/libretro-vecx)
 * virtualjaguar- [https://github.com/libretro/virtualjaguar-libretro](https://github.com/libretro/virtualjaguar-libretro)
+* yabause- [https://github.com/libretro/yabause](https://github.com/libretro/yabause)
 
 # Variables and usage
 
