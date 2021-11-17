@@ -75,4 +75,25 @@ _cmd_take_screenshot()
 ```
 
 Everything is stored in browser storage using an indexDB there is no integrated logic for downloading the files from the browser, but this can easily be built by interacting with the `fs` directly in the browser. 
-All of the code is open, feel free to modify it to your needs, but do not come here for support, none will be provided. These repositories are simply for development participation only. 
+All of the code is open, feel free to modify it to your needs, but do not come here for support, none will be provided. These repositories are simply for development participation only.
+
+# Bios files for cores
+
+These can be loaded as is no need to extract or modify them, they will be unzipped to the system directory before core load.
+
+* bluemsx- [https://ipfs.infura.io/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip](https://ipfs.infura.io/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip)
+* fceumm- [https://ipfs.infura.io/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip](https://ipfs.infura.io/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip)
+* gambatte- [https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip](https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip)
+* gearboy- [https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip](https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip)
+* genesis_plus_gx- [https://ipfs.infura.io/ipfs/Qmct6NWgAbSvWW9XenBfJ8U15GiwEgDLNFKhCnhL6TFiad?filename=sega.zip](https://ipfs.infura.io/ipfs/Qmct6NWgAbSvWW9XenBfJ8U15GiwEgDLNFKhCnhL6TFiad?filename=sega.zip)
+* handy- [https://ipfs.infura.io/ipfs/QmTaUUheMwLj5JqTqiZLzUfdUBj9xWikyZY4s72RGfKb9d?filename=lynxboot.img](https://ipfs.infura.io/ipfs/QmTaUUheMwLj5JqTqiZLzUfdUBj9xWikyZY4s72RGfKb9d?filename=lynxboot.img)
+* mgba- [https://ipfs.infura.io/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip](https://ipfs.infura.io/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip)
+* mednafen_pce_fast- [https://ipfs.infura.io/ipfs/QmVZuSTmjWBbFvsgkV7fp4R1ZmjveK9Fap4Nxi6DhbpZPT?filename=pce.zip](https://ipfs.infura.io/ipfs/QmVZuSTmjWBbFvsgkV7fp4R1ZmjveK9Fap4Nxi6DhbpZPT?filename=pce.zip)
+* mednafen_psx- [https://ipfs.infura.io/ipfs/QmfQTsRzaE4T9LUWnKara8KVyXmoUn2RXzmSHYtDYN8Jr6?filename=psx.zip](https://ipfs.infura.io/ipfs/QmfQTsRzaE4T9LUWnKara8KVyXmoUn2RXzmSHYtDYN8Jr6?filename=psx.zip)
+* melonds- [https://ipfs.infura.io/ipfs/QmciBpXM6i1nPSyjKv7tJYmWS7NGXtfKX2EtFmTJ4iomas?filename=nds.zip](https://ipfs.infura.io/ipfs/QmciBpXM6i1nPSyjKv7tJYmWS7NGXtfKX2EtFmTJ4iomas?filename=nds.zip)
+* o2em- [https://ipfs.infura.io/ipfs/QmcXRfDzhsEnWnMykpVwQc86kZXKXgbWMKuXf3HNzXnWKN?filename=odyssey2.zip](https://ipfs.infura.io/ipfs/QmcXRfDzhsEnWnMykpVwQc86kZXKXgbWMKuXf3HNzXnWKN?filename=odyssey2.zip)
+* prboom- [https://ipfs.infura.io/ipfs/QmaYzUXDqtjYDhveavbyh34EtJsfa8smuQayvfHKDoruBE?filename=prboom.wad](https://ipfs.infura.io/ipfs/QmaYzUXDqtjYDhveavbyh34EtJsfa8smuQayvfHKDoruBE?filename=prboom.wad)
+* prosystem- [https://ipfs.infura.io/ipfs/QmcHsJd8dzc4gKwd3cmibFBAgBw3X7pswzdLsWSBG8Ngs7?filename=atari7800.zip](https://ipfs.infura.io/ipfs/QmcHsJd8dzc4gKwd3cmibFBAgBw3X7pswzdLsWSBG8Ngs7?filename=atari7800.zip)
+* snes9x- [https://ipfs.infura.io/ipfs/Qme4WxcE38pAZePr3jbHp4h3c9Bu23K7Gt7PNkVHU4x14e?filename=snes.zip](https://ipfs.infura.io/ipfs/Qme4WxcE38pAZePr3jbHp4h3c9Bu23K7Gt7PNkVHU4x14e?filename=snes.zip)
+* vba_next- [https://ipfs.infura.io/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip](https://ipfs.infura.io/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip)
+* yabause- [https://ipfs.infura.io/ipfs/QmWfQo5YDDx7w4PRHFCLUcWWuhiD6L42h2AGm3RojJwXKo?filename=saturn.zip](https://ipfs.infura.io/ipfs/QmWfQo5YDDx7w4PRHFCLUcWWuhiD6L42h2AGm3RojJwXKo?filename=saturn.zip)
