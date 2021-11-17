@@ -97,3 +97,8 @@ These can be loaded as is no need to extract or modify them, they will be unzipp
 * snes9x- [https://ipfs.infura.io/ipfs/Qme4WxcE38pAZePr3jbHp4h3c9Bu23K7Gt7PNkVHU4x14e?filename=snes.zip](https://ipfs.infura.io/ipfs/Qme4WxcE38pAZePr3jbHp4h3c9Bu23K7Gt7PNkVHU4x14e?filename=snes.zip)
 * vba_next- [https://ipfs.infura.io/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip](https://ipfs.infura.io/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip)
 * yabause- [https://ipfs.infura.io/ipfs/QmWfQo5YDDx7w4PRHFCLUcWWuhiD6L42h2AGm3RojJwXKo?filename=saturn.zip](https://ipfs.infura.io/ipfs/QmWfQo5YDDx7w4PRHFCLUcWWuhiD6L42h2AGm3RojJwXKo?filename=saturn.zip)
+
+# MAME roms with chds
+
+mame_2003_plus roms need to be **full non-merged** roms in order to function. These are the zips that contain everything from the bios, to parent, to clones. In order to get games with chd files to load we have a custom file format that can be loaded by the extension ".multizip". To create this file simply zip the rom zip and the chd file (no folders) into a single file. IE if you had the file kinst.zip and the folder kinst/kinst.chd simply move the kinst.zip file into the kinst folder and create the archive using `zip kinst.multizip kinst.zip kinst.chd`. This multizip file will be unpacked before the emulator is loaded into the directory it is looking for the files.
+
