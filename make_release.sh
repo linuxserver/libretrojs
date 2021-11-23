@@ -34,7 +34,7 @@ for emu in $retroarchemus; do
   mv retroarch/${emu}_libretro.* "${rootdir}/data/"
 done
 cd retroarch/assets/frontend/bundle/
-zip -r frontend.zip  assets/xmb/monochrome assets/ozone shaders filters info autoconfig overlay assets/menu_widgets
+zip -r frontend.zip  assets/xmb/monochrome assets/ozone shaders filters info autoconfig assets/menu_widgets
 mv frontend.zip "${rootdir}/data/"
 cd "${rootdir}"
 rm -Rf retrotmp
