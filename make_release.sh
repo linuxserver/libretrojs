@@ -1,43 +1,10 @@
 #! /bin/bash
 
-# Working emulators for retroarch
-retroarchemus="\
-fceumm
-snes9x
-mednafen_vb
-gearboy
-vba_next
-gambatte
-genesis_plus_gx
-handy
-mame2003_plus
-mednafen_ngp
-mednafen_wswan
-o2em
-prboom
-tyrquake
-vecx
-bluemsx"
-IFS=$'\n'
-
 # Setup build dirs
 rootdir=$(pwd)'/buildout/'
 mkdir -p ${rootdir}{data,js/vendor,retrotmp,emulatorjstmp}
 
 ## Grab frontend blobs
-# Libretro emscripten
-cd ${rootdir}retrotmp
-wget https://buildbot.libretro.com/nightly/emscripten/RetroArch.7z
-7z x RetroArch.7z
-sed -i 's/wasmBinaryFile="/wasmBinaryFile="data\//g' retroarch/*.js
-for emu in $retroarchemus; do
-  mv retroarch/${emu}_libretro.* "${rootdir}/data/"
-done
-cd retroarch/assets/frontend/bundle/
-zip -r frontend.zip  assets/xmb/monochrome assets/ozone shaders filters info autoconfig assets/menu_widgets
-mv frontend.zip "${rootdir}/data/"
-cd "${rootdir}"
-rm -Rf retrotmp
 # Custom cores
 wget https://github.com/linuxserver/libretro-cores/archive/master.tar.gz
 tar xf \
