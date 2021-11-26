@@ -84,7 +84,7 @@ These can be loaded as is no need to extract or modify them, they will be unzipp
 
 * bluemsx- [https://ipfs.infura.io/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip](https://ipfs.infura.io/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip)
 * fceumm- [https://ipfs.infura.io/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip](https://ipfs.infura.io/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip)
-* fuse- [https://ipfs.infura.io/ipfs/QmY49yeFFJTK1485PwWPqVom5nBWwFGabY64GiBo1H991H?filename=spectrum.zip](https://ipfs.infura.io/ipfs/QmY49yeFFJTK1485PwWPqVom5nBWwFGabY64GiBo1H991H?filename=spectrum.zip)
+* fuse- [https://ipfs.infura.io/ipfs/QmYutEB17S7d9gjkPPZj6YGV9XKWZNC3Uoaycxj3352dVh?filename=spectrum.zip](https://ipfs.infura.io/ipfs/QmYutEB17S7d9gjkPPZj6YGV9XKWZNC3Uoaycxj3352dVh?filename=spectrum.zip)
 * gambatte- [https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip](https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip)
 * gearboy- [https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip](https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip)
 * genesis_plus_gx- [https://ipfs.infura.io/ipfs/Qmct6NWgAbSvWW9XenBfJ8U15GiwEgDLNFKhCnhL6TFiad?filename=sega.zip](https://ipfs.infura.io/ipfs/Qmct6NWgAbSvWW9XenBfJ8U15GiwEgDLNFKhCnhL6TFiad?filename=sega.zip)
