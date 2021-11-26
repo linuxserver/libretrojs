@@ -2,7 +2,7 @@
 
 # Setup build dirs
 rootdir=$(pwd)'/buildout/'
-mkdir -p ${rootdir}{data,js/vendor,retrotmp,emulatorjstmp}
+mkdir -p ${rootdir}{data,js/vendor,emulatorjstmp}
 
 ## Grab frontend blobs
 # Custom cores
