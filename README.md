@@ -27,6 +27,7 @@ Simply extract the release into the root of your webserver and try this test pag
 * gambatte- [https://github.com/libretro/gambatte-libretro](https://github.com/libretro/gambatte-libretro)
 * gearboy- [https://github.com/libretro/Gearboy](https://github.com/libretro/Gearboy)
 * genesis_plus_gx- [https://github.com/libretro/Genesis-Plus-GX](https://github.com/libretro/Genesis-Plus-GX)
+* gw- [https://github.com/libretro/gw-libretro](https://github.com/libretro/gw-libretro)
 * handy- [https://github.com/libretro/libretro-handy](https://github.com/libretro/libretro-handy)
 * mame2003_plus- [https://github.com/libretro/mame2003-plus-libretro](https://github.com/libretro/mame2003-plus-libretro)
 * mednafen_ngp- [https://github.com/libretro/beetle-ngp-libretro](https://github.com/libretro/beetle-ngp-libretro)
