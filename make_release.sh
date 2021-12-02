@@ -2,7 +2,7 @@
 
 # Setup build dirs
 rootdir=$(pwd)'/buildout/'
-mkdir -p ${rootdir}{data,js/vendor,emulatorjstmp}
+mkdir -p ${rootdir}{data,js,emulatorjstmp}
 
 ## Grab frontend blobs
 # Custom cores
@@ -20,11 +20,6 @@ tar xf \
 mv \
   ${rootdir}/emulatorjstmp/frontend/js/libretro.js \
   ${rootdir}/js/
-mv \
-  ${rootdir}/emulatorjstmp/frontend/js/vendor/browserfs.min.js \
-  ${rootdir}/emulatorjstmp/frontend/js/vendor/jquery.hotkeys.js \
-  ${rootdir}/emulatorjstmp/frontend/js/vendor/jquery.min.js \
-  ${rootdir}/js/vendor/
 rm -Rf ${rootdir}/emulatorjstmp/
 # Make tarball for release
 cd ${rootdir}

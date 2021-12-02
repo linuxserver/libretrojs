@@ -10,9 +10,6 @@ This repository collects the assets used in [https://github.com/linuxserver/emul
     EJS_gameUrl = '/your/game/rom.zip';
     EJS_core = 'snes9x';
 </script>
-<script src="js/vendor/jquery.min.js"></script>
-<script src="js/vendor/jquery.hotkeys.js"></script>
-<script src="js/vendor/browserfs.min.js"></script>
 <script src="js/libretro.js"></script>
 ```
 
