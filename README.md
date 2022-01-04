@@ -33,6 +33,7 @@ Simply extract the release into the root of your webserver and try this test pag
 * mednafen_vb- [https://github.com/libretro/beetle-vb-libretro](https://github.com/libretro/beetle-vb-libretro)
 * mednafen_wswan- [https://github.com/libretro/beetle-wswan-libretro](https://github.com/libretro/beetle-wswan-libretro)
 * melonds- [https://github.com/libretro/melonDS](https://github.com/libretro/melonDS)
+* melonds_threaded- [https://github.com/libretro/melonDS](https://github.com/libretro/melonDS)
 * o2em- [https://github.com/libretro/libretro-o2em](https://github.com/libretro/libretro-o2em)
 * prboom- [https://github.com/libretro/libretro-prboom](https://github.com/libretro/libretro-prboom)
 * prosystem- [https://github.com/libretro/prosystem-libretro](https://github.com/libretro/prosystem-libretro)
@@ -101,3 +102,23 @@ These can be loaded as is no need to extract or modify them, they will be unzipp
 
 mame_2003_plus roms need to be **full non-merged** roms in order to function. These are the zips that contain everything from the bios, to parent, to clones. In order to get games with chd files to load we have a custom file format that can be loaded by the extension ".multizip". To create this file simply zip the rom zip and the chd file (no folders) into a single file. IE if you had the file kinst.zip and the folder kinst/kinst.chd simply move the kinst.zip file into the kinst folder and create the archive using `zip kinst.multizip kinst.zip kinst.chd`. This multizip file will be unpacked before the emulator is loaded into the directory it is looking for the files.
 
+# Threaded emulators
+
+Some emulators might have a threaded option, in order for these to function on the client they need to have specific security headers set on the actual web host of the files so `SharedArrayBuffer` can be used in the clientside browser. They also need to be served from an HTTPS endpoint as these are the sandboxing requirements for modern browsers.
+
+In Nodejs:
+
+```
+app.use(function(req, res, next) {
+  res.header("Cross-Origin-Embedder-Policy", "require-corp");
+  res.header("Cross-Origin-Opener-Policy", "same-origin");
+  next();
+});
+```
+
+In NGINX:
+
+```
+  add_header Cross-Origin-Opener-Policy same-origin;
+  add_header Cross-Origin-Embedder-Policy require-corp;
+```
