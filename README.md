@@ -44,6 +44,7 @@ Simply extract the release into the root of your webserver and try this test pag
 * vecx- [https://github.com/libretro/libretro-vecx](https://github.com/libretro/libretro-vecx)
 * virtualjaguar- [https://github.com/libretro/virtualjaguar-libretro](https://github.com/libretro/virtualjaguar-libretro)
 * yabause- [https://github.com/libretro/yabause](https://github.com/libretro/yabause)
+* yabause_threaded- [https://github.com/libretro/yabause](https://github.com/libretro/yabause)
 
 # Variables and usage
 
@@ -122,3 +123,7 @@ In NGINX:
   add_header Cross-Origin-Opener-Policy same-origin;
   add_header Cross-Origin-Embedder-Policy require-corp;
 ```
+
+# Code Reference
+
+The source code these cores are build against is located [HERE](https://github.com/thelamer/retrostash).
