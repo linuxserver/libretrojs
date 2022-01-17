@@ -4,11 +4,17 @@ This repository collects the assets used in [https://github.com/linuxserver/emul
 
 # Example
 ```
+<button onclick="load()">Load Game</button>
 <div id="game"></div>
 <script type="text/javascript">
     EJS_player = '#game';
     EJS_gameUrl = '/your/game/rom.zip';
     EJS_core = 'snes9x';
+    function load() {
+      var script = document.createElement('script');
+      script.src = 'js/libretro.js'
+      document.getElementsByTagName('head')[0].appendChild(script);
+    }
 </script>
 <script src="js/libretro.js"></script>
 ```
@@ -57,7 +63,7 @@ Simply extract the release into the root of your webserver and try this test pag
 
 ## Basic setup
 
-By default the script renders in a canvas element and an unstyled fullscreen button with the class `full-button`. Feel free to hide the button or style it absolute to where you need it on your page. The user of the game can bring up the libretro menu by pressing F1 on a keyboard or start+select+L+R on a controller.
+The user of the game can bring up the libretro menu by pressing F1 on a keyboard or start+select+L+R on a controller.
 You can define scripts to run after startup by using the onGameStart option, IE to go fullscreen on load: 
 
 ```
