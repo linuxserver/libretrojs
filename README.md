@@ -16,7 +16,6 @@ This repository collects the assets used in [https://github.com/linuxserver/emul
       document.getElementsByTagName('head')[0].appendChild(script);
     }
 </script>
-<script src="js/libretro.js"></script>
 ```
 
 Simply extract the release into the root of your webserver and try this test page for the `snes9x` emulator.
