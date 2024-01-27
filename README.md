@@ -39,6 +39,7 @@ Simply extract the release into the root of your webserver and try this test pag
 * mednafen_wswan- [https://github.com/libretro/beetle-wswan-libretro](https://github.com/libretro/beetle-wswan-libretro)
 * melonds- [https://github.com/libretro/melonDS](https://github.com/libretro/melonDS)
 * melonds_threaded- [https://github.com/libretro/melonDS](https://github.com/libretro/melonDS)
+* mupen64plus_next - [https://github.com/libretro/mupen64plus-libretro-nx](https://github.com/libretro/mupen64plus-libretro-nx)
 * o2em- [https://github.com/libretro/libretro-o2em](https://github.com/libretro/libretro-o2em)
 * prboom- [https://github.com/libretro/libretro-prboom](https://github.com/libretro/libretro-prboom)
 * prosystem- [https://github.com/libretro/prosystem-libretro](https://github.com/libretro/prosystem-libretro)
@@ -87,22 +88,34 @@ All of the code is open, feel free to modify it to your needs, but do not come h
 
 These can be loaded as is no need to extract or modify them, they will be unzipped to the system directory before core load.
 
-* bluemsx- [https://ipfs.infura.io/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip](https://ipfs.infura.io/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip)
-* fceumm- [https://ipfs.infura.io/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip](https://ipfs.infura.io/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip)
-* fuse- [https://ipfs.infura.io/ipfs/QmYutEB17S7d9gjkPPZj6YGV9XKWZNC3Uoaycxj3352dVh?filename=spectrum.zip](https://ipfs.infura.io/ipfs/QmYutEB17S7d9gjkPPZj6YGV9XKWZNC3Uoaycxj3352dVh?filename=spectrum.zip)
-* gambatte- [https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip](https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip)
-* gearboy- [https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip](https://ipfs.infura.io/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip)
-* genesis_plus_gx- [https://ipfs.infura.io/ipfs/Qmct6NWgAbSvWW9XenBfJ8U15GiwEgDLNFKhCnhL6TFiad?filename=sega.zip](https://ipfs.infura.io/ipfs/Qmct6NWgAbSvWW9XenBfJ8U15GiwEgDLNFKhCnhL6TFiad?filename=sega.zip)
-* handy- [https://ipfs.infura.io/ipfs/QmTaUUheMwLj5JqTqiZLzUfdUBj9xWikyZY4s72RGfKb9d?filename=lynxboot.img](https://ipfs.infura.io/ipfs/QmTaUUheMwLj5JqTqiZLzUfdUBj9xWikyZY4s72RGfKb9d?filename=lynxboot.img)
-* mednafen_pce_fast- [https://ipfs.infura.io/ipfs/QmVZuSTmjWBbFvsgkV7fp4R1ZmjveK9Fap4Nxi6DhbpZPT?filename=pce.zip](https://ipfs.infura.io/ipfs/QmVZuSTmjWBbFvsgkV7fp4R1ZmjveK9Fap4Nxi6DhbpZPT?filename=pce.zip)
-* mednafen_psx- [https://ipfs.infura.io/ipfs/QmfQTsRzaE4T9LUWnKara8KVyXmoUn2RXzmSHYtDYN8Jr6?filename=psx.zip](https://ipfs.infura.io/ipfs/QmfQTsRzaE4T9LUWnKara8KVyXmoUn2RXzmSHYtDYN8Jr6?filename=psx.zip)
-* melonds- [https://ipfs.infura.io/ipfs/QmciBpXM6i1nPSyjKv7tJYmWS7NGXtfKX2EtFmTJ4iomas?filename=nds.zip](https://ipfs.infura.io/ipfs/QmciBpXM6i1nPSyjKv7tJYmWS7NGXtfKX2EtFmTJ4iomas?filename=nds.zip)
-* o2em- [https://ipfs.infura.io/ipfs/QmcXRfDzhsEnWnMykpVwQc86kZXKXgbWMKuXf3HNzXnWKN?filename=odyssey2.zip](https://ipfs.infura.io/ipfs/QmcXRfDzhsEnWnMykpVwQc86kZXKXgbWMKuXf3HNzXnWKN?filename=odyssey2.zip)
-* prboom- [https://ipfs.infura.io/ipfs/QmaYzUXDqtjYDhveavbyh34EtJsfa8smuQayvfHKDoruBE?filename=prboom.wad](https://ipfs.infura.io/ipfs/QmaYzUXDqtjYDhveavbyh34EtJsfa8smuQayvfHKDoruBE?filename=prboom.wad)
-* prosystem- [https://ipfs.infura.io/ipfs/QmcHsJd8dzc4gKwd3cmibFBAgBw3X7pswzdLsWSBG8Ngs7?filename=atari7800.zip](https://ipfs.infura.io/ipfs/QmcHsJd8dzc4gKwd3cmibFBAgBw3X7pswzdLsWSBG8Ngs7?filename=atari7800.zip)
-* snes9x- [https://ipfs.infura.io/ipfs/Qme4WxcE38pAZePr3jbHp4h3c9Bu23K7Gt7PNkVHU4x14e?filename=snes.zip](https://ipfs.infura.io/ipfs/Qme4WxcE38pAZePr3jbHp4h3c9Bu23K7Gt7PNkVHU4x14e?filename=snes.zip)
-* vba_next- [https://ipfs.infura.io/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip](https://ipfs.infura.io/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip)
-* yabause- [https://ipfs.infura.io/ipfs/QmWfQo5YDDx7w4PRHFCLUcWWuhiD6L42h2AGm3RojJwXKo?filename=saturn.zip](https://ipfs.infura.io/ipfs/QmWfQo5YDDx7w4PRHFCLUcWWuhiD6L42h2AGm3RojJwXKo?filename=saturn.zip)
+* bluemsx- [https://gateway.pinata.cloud/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip](https://gateway.pinata.cloud/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip)
+* fceumm- [https://gateway.pinata.cloud/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip](https://gateway.pinata.cloud/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip)
+* fuse- [https://gateway.pinata.cloud/ipfs/QmYutEB17S7d9gjkPPZj6YGV9XKWZNC3Uoaycxj3352dVh?filename=spectrum.zip](https://gateway.pinata.cloud/ipfs/QmYutEB17S7d9gjkPPZj6YGV9XKWZNC3Uoaycxj3352dVh?filename=spectrum.zip)
+* gambatte- [https://gateway.pinata.cloud/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip](https://gateway.pinata.cloud/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip)
+* gearboy- [https://gateway.pinata.cloud/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip](https://gateway.pinata.cloud/ipfs/QmYXjcLTGdtG9JtDGVg42cWFkW6feYufRPQYGSe6ifESY8?filename=gb.zip)
+* genesis_plus_gx- [https://gateway.pinata.cloud/ipfs/Qmct6NWgAbSvWW9XenBfJ8U15GiwEgDLNFKhCnhL6TFiad?filename=sega.zip](https://gateway.pinata.cloud/ipfs/Qmct6NWgAbSvWW9XenBfJ8U15GiwEgDLNFKhCnhL6TFiad?filename=sega.zip)
+* handy- [https://gateway.pinata.cloud/ipfs/QmTaUUheMwLj5JqTqiZLzUfdUBj9xWikyZY4s72RGfKb9d?filename=lynxboot.img](https://gateway.pinata.cloud/ipfs/QmTaUUheMwLj5JqTqiZLzUfdUBj9xWikyZY4s72RGfKb9d?filename=lynxboot.img)
+* mednafen_pce_fast- [https://gateway.pinata.cloud/ipfs/QmVZuSTmjWBbFvsgkV7fp4R1ZmjveK9Fap4Nxi6DhbpZPT?filename=pce.zip](https://gateway.pinata.cloud/ipfs/QmVZuSTmjWBbFvsgkV7fp4R1ZmjveK9Fap4Nxi6DhbpZPT?filename=pce.zip)
+* mednafen_psx- [https://gateway.pinata.cloud/ipfs/QmfQTsRzaE4T9LUWnKara8KVyXmoUn2RXzmSHYtDYN8Jr6?filename=psx.zip](https://gateway.pinata.cloud/ipfs/QmfQTsRzaE4T9LUWnKara8KVyXmoUn2RXzmSHYtDYN8Jr6?filename=psx.zip)
+* melonds- [https://gateway.pinata.cloud/ipfs/QmciBpXM6i1nPSyjKv7tJYmWS7NGXtfKX2EtFmTJ4iomas?filename=nds.zip](https://gateway.pinata.cloud/ipfs/QmciBpXM6i1nPSyjKv7tJYmWS7NGXtfKX2EtFmTJ4iomas?filename=nds.zip)
+* o2em- [https://gateway.pinata.cloud/ipfs/QmcXRfDzhsEnWnMykpVwQc86kZXKXgbWMKuXf3HNzXnWKN?filename=odyssey2.zip](https://gateway.pinata.cloud/ipfs/QmcXRfDzhsEnWnMykpVwQc86kZXKXgbWMKuXf3HNzXnWKN?filename=odyssey2.zip)
+* prboom- [https://gateway.pinata.cloud/ipfs/QmaYzUXDqtjYDhveavbyh34EtJsfa8smuQayvfHKDoruBE?filename=prboom.wad](https://gateway.pinata.cloud/ipfs/QmaYzUXDqtjYDhveavbyh34EtJsfa8smuQayvfHKDoruBE?filename=prboom.wad)
+* prosystem- [https://gateway.pinata.cloud/ipfs/QmcHsJd8dzc4gKwd3cmibFBAgBw3X7pswzdLsWSBG8Ngs7?filename=atari7800.zip](https://gateway.pinata.cloud/ipfs/QmcHsJd8dzc4gKwd3cmibFBAgBw3X7pswzdLsWSBG8Ngs7?filename=atari7800.zip)
+* snes9x- [https://gateway.pinata.cloud/ipfs/Qme4WxcE38pAZePr3jbHp4h3c9Bu23K7Gt7PNkVHU4x14e?filename=snes.zip](https://gateway.pinata.cloud/ipfs/Qme4WxcE38pAZePr3jbHp4h3c9Bu23K7Gt7PNkVHU4x14e?filename=snes.zip)
+* vba_next- [https://gateway.pinata.cloud/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip](https://gateway.pinata.cloud/ipfs/QmYtDaErc2RzWBYLmcwfKD81NSVjqBsGD6cJCk3kNzDyuk?filename=gba.zip)
+* yabause- [https://gateway.pinata.cloud/ipfs/QmWfQo5YDDx7w4PRHFCLUcWWuhiD6L42h2AGm3RojJwXKo?filename=saturn.zip](https://gateway.pinata.cloud/ipfs/QmWfQo5YDDx7w4PRHFCLUcWWuhiD6L42h2AGm3RojJwXKo?filename=saturn.zip)
+
+# Rom Hacks Support
+Retroarch supports [Softpatching](https://docs.libretro.com/guides/softpatching/), which will apply a patchfile to the base rom on launch. In order to leverage this feature you will need to prepare a custom zip file ending with the file extension ".patchzip". Lets take a popular hack "Invictus" as an example for snes. You will need to create a zip file named "Invictus.smc.patchzip" (note the two file extensions with smc indicating the extension of the base rom) containing the following files:
+
+* Invictus.smc - base rom file to be patched in this case SMW.
+* Invictus.bps - Patch file to be applied.
+
+Multiple patch files can be applied as long as they follow this naming scheme ending in the order to be loaded IE:
+
+* Invictus.smc - base rom file to be patched in this case SMW.
+* Invictus.bps - First patch file to be applied.
+* Invictus.bps1 - Second patch file to be applied.
 
 # MAME roms with chds
 
