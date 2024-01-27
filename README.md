@@ -23,6 +23,7 @@ Simply extract the release into the root of your webserver and try this test pag
 # Supported emulators
 
 * 81- [https://github.com/libretro/81-libretro](https://github.com/libretro/81-libretro)
+* atari800- [https://github.com/libretro/libretro-atari800](https://github.com/libretro/libretro-atari800)
 * bluemsx- [https://github.com/libretro/blueMSX-libretro](https://github.com/libretro/blueMSX-libretro)
 * fceumm- [https://github.com/libretro/libretro-fceumm](https://github.com/libretro/libretro-fceumm)
 * fuse- [https://github.com/libretro/fuse-libretro](https://github.com/libretro/fuse-libretro)
@@ -87,7 +88,9 @@ All of the code is open, feel free to modify it to your needs, but do not come h
 # Bios files for cores
 
 These can be loaded as is no need to extract or modify them, they will be unzipped to the system directory before core load.
-
+i
+* atari800- [https://gateway.pinata.cloud/ipfs/QmXMs7meQMTpKxVbRGPX6b5Lj4Yh4iJhP69K5MbXqM23vS?filename=atari800.zip](https://gateway.pinata.cloud/ipfs/QmXMs7meQMTpKxVbRGPX6b5Lj4Yh4iJhP69K5MbXqM23vS?filename=atari800.zip)
+* bluemsx- [https://gateway.pinata.cloud/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip](https://gateway.pinata.cloud/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip)
 * bluemsx- [https://gateway.pinata.cloud/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip](https://gateway.pinata.cloud/ipfs/QmUeCQ3vWxe7F1FZzspLSAvHE42cqoo5xEGK3FdEv5pbUp?filename=msx.zip)
 * fceumm- [https://gateway.pinata.cloud/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip](https://gateway.pinata.cloud/ipfs/QmPk9EKQ2aRVHJX91PTJfmfBDiHRzeWuZExT36BAk2sNZL?filename=nes.zip)
 * fuse- [https://gateway.pinata.cloud/ipfs/QmYutEB17S7d9gjkPPZj6YGV9XKWZNC3Uoaycxj3352dVh?filename=spectrum.zip](https://gateway.pinata.cloud/ipfs/QmYutEB17S7d9gjkPPZj6YGV9XKWZNC3Uoaycxj3352dVh?filename=spectrum.zip)
